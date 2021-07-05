@@ -1,0 +1,26 @@
+{
+  "name": "ccv-cli",
+  "version": "1.1.5",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ccv": "./bin/file"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "currency",
+    "converter",
+    "exchange-rate",
+    "ccv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "minimist": "^1.2.5",
+    "ora": "^5.4.1"
+  }
+}
